@@ -1,0 +1,63 @@
+/*
+ * playlist.c
+ *
+ *  Created on: 24 mag 2016
+ *      Author: monti
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#include "playlist.h"
+
+track_t inserisci_dettagli(void){
+
+	track_t temp;
+
+	printf("Inserisci artista ---> ");
+	gets(temp.artista);
+	printf("Inserisci titolo ---> ");
+	gets(temp.titolo);
+	printf("Inserisci genere ---> ");
+	gets(temp.genere);
+
+	temp.stelle = 0;
+
+	return temp;
+}
+
+void scrivi_file(FILE *f, track_t *lista, int dim_lista)
+{
+	int i, j ;
+	char stelle[6];
+
+	fprintf(f, "%-30s%-30s%-30s%-30s\n", "ARTISTA", "TITOLO", "GENERE", "VALUTAZIONE");
+
+	for(i = 0 ; i < dim_lista ; i++){
+
+		strcpy(stelle, " ");
+		// conversione da numero a stelle '*'
+		if( lista[i].stelle != 0 ){
+
+			for(j = 0 ; j < lista[i].stelle ; j++){
+				stelle[j] = '*' ;
+			}
+			stelle[j] = '\0';
+		}
+		fprintf(f, "%-30s%-30s%-30s%-30s\n",
+							lista[i].artista, lista[i].titolo, lista[i].genere, stelle);
+	}
+}
+
+int ricerca_titolo(track_t *lista, int dim_lista, char titolo[])
+{
+	int i, pos = NOT_FOUND ;
+
+	for( i = 0 ; i < dim_lista && pos == NOT_FOUND ; i++ ){
+
+		if( strcmp(lista[i].titolo, titolo) == 0 )
+			pos = i ;
+	}
+}

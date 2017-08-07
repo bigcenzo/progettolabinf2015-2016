@@ -1,0 +1,5 @@
+*******   ARCHIVIO MUSICALE   *******
+
+ARTISTA                       TITOLO                        GENERE                        VALUTAZIONE                   
+bla bla                       ciao                          rock                                                        
+qua qua                       hello                         pop                                                         

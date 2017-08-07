@@ -1,0 +1,26 @@
+/*
+ * menu.c
+ *
+ *  Created on: 24 mag 2016
+ *      Author: monti
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdbool.h>
+#include "playlist.h"
+
+#define DIM 2
+
+int main(void)
+{
+	int dim_archivio, dim_playlist, num_playlist = 0 ;
+	int i, scelta, err ;
+	char s[DIM+1], titolo[MAXDIM],
+
+	// terminazione programma
+	system("pause");
+	return 0;
+}

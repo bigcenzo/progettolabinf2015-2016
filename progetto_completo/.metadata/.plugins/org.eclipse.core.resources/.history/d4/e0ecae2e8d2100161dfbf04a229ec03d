@@ -1,0 +1,17 @@
+/*
+ * playlist.c
+ *
+ *  Created on: 24 mag 2016
+ *      Author: monti
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#include "playlist.h"
+
+track_t inserisci_dettagli(void){
+
+}

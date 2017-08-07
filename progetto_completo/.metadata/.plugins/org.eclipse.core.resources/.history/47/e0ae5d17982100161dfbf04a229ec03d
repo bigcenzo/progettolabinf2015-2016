@@ -1,0 +1,25 @@
+/*
+ * playlist.h
+ *
+ *  Created on: 24 mag 2016
+ *      Author: monti
+ */
+
+#ifndef PLAYLIST_H_
+#define PLAYLIST_H_
+
+#define MAXDIM 30
+#define NOT_FOUND -1
+
+typedef struct{
+	char artista[MAXDIM];
+	char titolo[MAXDIM];
+	char genere[MAXDIM];
+	int stelle;
+}track_t;
+
+track_t inserisci_dettagli(void);
+void scrivi_file(FILE *f, track_t *lista, int dim_lista);
+int ricerca_titolo(track_t *lista, int dim_lista, char titolo[]);
+
+#endif /* PLAYLIST_H_ */

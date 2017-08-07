@@ -1,0 +1,266 @@
+10:52:02 **** Rebuild of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+ar: creating libplaylist.a
+10:53:02 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'inserisci_dettagli':
+..\playlist.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+ar -r libplaylist.a playlist.o 
+10:54:55 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+11:06:01 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'ricerca_titolo':
+..\playlist.c:56:15: error: 'NOT_FOUND' undeclared (first use in this function)
+  int i, pos = NOT_FOUND ;
+               ^
+..\playlist.c:56:15: note: each undeclared identifier is reported only once for each function it appears in
+..\playlist.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:06:06 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'ricerca_titolo':
+..\playlist.c:56:15: error: 'NOT_FOUND' undeclared (first use in this function)
+  int i, pos = NOT_FOUND ;
+               ^
+..\playlist.c:56:15: note: each undeclared identifier is reported only once for each function it appears in
+..\playlist.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:06:25 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'ricerca_titolo':
+..\playlist.c:56:15: error: 'NOT_FOUND' undeclared (first use in this function)
+  int i, pos = NOT_FOUND ;
+               ^
+..\playlist.c:56:15: note: each undeclared identifier is reported only once for each function it appears in
+11:06:27 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'ricerca_titolo':
+..\playlist.c:56:15: error: 'NOT_FOUND' undeclared (first use in this function)
+  int i, pos = NOT_FOUND ;
+               ^
+..\playlist.c:56:15: note: each undeclared identifier is reported only once for each function it appears in
+11:06:28 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+..\playlist.c: In function 'ricerca_titolo':
+..\playlist.c:56:15: error: 'NOT_FOUND' undeclared (first use in this function)
+  int i, pos = NOT_FOUND ;
+               ^
+..\playlist.c:56:15: note: each undeclared identifier is reported only once for each function it appears in
+11:08:35 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+11:20:43 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+11:36:33 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+11:41:07 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+12:12:06 **** Rebuild of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+..\menu.c:114:4: warning: implicit declaration of function 'ricerca_genere' [-Wimplicit-function-declaration]
+    ricerca_genere(archivio, dim_archivio);
+    ^
+..\menu.c:127:4: warning: implicit declaration of function 'crea_playlist' [-Wimplicit-function-declaration]
+    crea_playlist(archivio, playlist, dim_archivio, dim_playlist);
+    ^
+..\menu.c:146:2: error: expected 'while' before 'system'
+  system("pause");
+  ^
+..\menu.c:23:7: warning: unused variable 's' [-Wunused-variable]
+  char s[DIM+1], titolo[MAXDIM],stelle[6];
+       ^
+..\menu.c:22:17: warning: unused variable 'err' [-Wunused-variable]
+  int i, scelta, err ;
+                 ^
+Info: Nothing to build for playlist
+12:13:00 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+..\menu.c:146:2: error: expected 'while' before 'system'
+  system("pause");
+  ^
+..\menu.c:23:7: warning: unused variable 's' [-Wunused-variable]
+  char s[DIM+1], titolo[MAXDIM],stelle[6];
+       ^
+..\menu.c:22:17: warning: unused variable 'err' [-Wunused-variable]
+  int i, scelta, err ;
+                 ^
+12:13:00 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+12:13:07 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+..\menu.c:146:2: error: expected 'while' before 'system'
+  system("pause");
+  ^
+..\menu.c:23:7: warning: unused variable 's' [-Wunused-variable]
+  char s[DIM+1], titolo[MAXDIM],stelle[6];
+       ^
+..\menu.c:22:17: warning: unused variable 'err' [-Wunused-variable]
+  int i, scelta, err ;
+                 ^
+Info: Nothing to build for playlist
+12:13:12 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+..\menu.c:146:2: error: expected 'while' before 'system'
+  system("pause");
+  ^
+..\menu.c:23:7: warning: unused variable 's' [-Wunused-variable]
+  char s[DIM+1], titolo[MAXDIM],stelle[6];
+       ^
+..\menu.c:22:17: warning: unused variable 'err' [-Wunused-variable]
+  int i, scelta, err ;
+                 ^
+Info: Nothing to build for playlist
+12:21:04 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+..\menu.c:160:43: error: expected ')' before ']' token
+   printf("[NO] - Termina il programma\n\n"]);
+                                           ^
+..\menu.c:160:43: error: expected ';' before ']' token
+..\menu.c:160:43: error: expected statement before ']' token
+..\menu.c:160:44: error: expected statement before ')' token
+   printf("[NO] - Termina il programma\n\n"]);
+                                            ^
+Info: Nothing to build for playlist
+12:21:16 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'main':
+..\menu.c:88:4: error: 'pos' undeclared (first use in this function)
+    pos = ricerca_titolo(archivio, dim_archivio, titolo);
+    ^
+..\menu.c:88:4: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for playlist
+12:21:40 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+Info: Nothing to build for main_menu
+Info: Nothing to build for playlist
+Info: Nothing to build for main_menu
+Info: Nothing to build for playlist
+Info: Nothing to build for main_menu
+Info: Nothing to build for playlist
+Info: Nothing to build for main_menu
+12:29:03 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+12:29:08 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+c:/mingw/bin/../lib/gcc/mingw32/4.9.3/../../../../mingw32/bin/ld.exe: cannot open output file main_menu.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:29:09 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+12:29:21 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+c:/mingw/bin/../lib/gcc/mingw32/4.9.3/../../../../mingw32/bin/ld.exe: cannot open output file main_menu.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for playlist
+12:29:34 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:32:23 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:35:09 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:38:10 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+Info: Nothing to build for main_menu
+12:38:15 **** Incremental Build of configuration Debug for project playlist ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o playlist.o "..\\playlist.c" 
+ar -r libplaylist.a playlist.o 
+12:38:21 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:44:00 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:46:24 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:49:51 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist
+12:52:58 **** Incremental Build of configuration Debug for project main_menu ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\monti\\workspace\\playlist" -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc "-LC:\\Users\\monti\\workspace\\playlist\\Debug" -o main_menu.exe menu.o -lplaylist 
+Info: Nothing to build for playlist

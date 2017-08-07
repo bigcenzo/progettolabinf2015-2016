@@ -1,0 +1,29 @@
+/*
+ * playlist.c
+ *
+ *  Created on: 24 mag 2016
+ *      Author: monti
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#include "playlist.h"
+
+track_t inserisci_dettagli(void){
+
+	track_t temp;
+
+	printf("Inserisci artista ---> ");
+	gets(temp.artista);
+	printf("Inserisci titolo ---> ");
+	gets(temp.titolo);
+	printf("Inserisci genere ---> ");
+	gets(temp.genere);
+
+	temp.stelle = 0;
+
+	return temp;
+}
