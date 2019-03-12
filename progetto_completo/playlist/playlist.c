@@ -2,7 +2,7 @@
  * playlist.c
  *
  *  Created on: 24 mag 2016
- *      Author: monti
+ *      Author: Martemucci, Monti
  */
 
 #include <stdio.h>
