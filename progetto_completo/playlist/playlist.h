@@ -2,7 +2,7 @@
  * playlist.h
  *
  *  Created on: 24 mag 2016
- *      Author: monti
+ *      Author: Martemucci, Monti
  */
 
 #ifndef PLAYLIST_H_
